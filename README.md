@@ -6,7 +6,7 @@
 
 ## Description
 
-_I built a track Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks a series of questions that provides a track based on their answers. The survey has 5 questions and offers  3 different track suggestions_
+_I built a track Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks a series of questions that provides a track based on their answers. The survey has 5 questions and offers  3 different track suggestions. Here is a link to the viewable website: https://garybm.github.io/track-suggester/_
 
 ## Setup/Installation Requirements
 
