@@ -26,6 +26,10 @@ margin-bottom: 20px;
   margin-top: 25px;
   margin-bottom: 30px;
 }
+ul {
+  display: inline-block;
+  text-align:left;
+}
 
 /* .jumbotron {
   padding: 60px;
