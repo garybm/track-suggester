@@ -7,11 +7,11 @@ $(document).ready(function() {
     var words = parseInt($("#words").val());
     var result = location + company + teams + projects + words;
 
-    if (result < 6) {
+    if (result < 10) {
     $('#result1').show();
     $('#result2').hide();
     $('#result3').hide();
-  } else if (result > 10 ){
+  } else if (result > 10) {
     $('#result1').hide();
     $('#result2').show();
     $('#result3').hide();
