@@ -20,6 +20,8 @@ $(document).ready(function() {
     $('#result2').hide();
     $('#result3').show();
   }
+  event.preventDefault();
+  
     $("#location").val("");
     $("#company").val("");
     $("#teams").val("");
@@ -27,7 +29,6 @@ $(document).ready(function() {
     $("#words").val("");
 
     $(".name").text(name);
-  $("#confirm").show();
-  event.preventDefault();
+   $("#confirm").show();
   });
 });
