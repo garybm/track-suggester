@@ -1,11 +1,14 @@
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
+    var nameInput = $("input#name").val();
     var location = parseInt($("#location").val());
     var company = parseInt($("#company").val());
     var teams = parseInt($("#teams").val());
     var projects = parseInt($("#projects").val());
     var words = parseInt($("#words").val());
     var result = location + company + teams + projects + words;
+
+    $
 
     if (result < 9) {
     $('#result1').show();
@@ -21,14 +24,14 @@ $(document).ready(function() {
     $('#result3').show();
   }
   event.preventDefault();
-  
+
     $("#location").val("");
     $("#company").val("");
     $("#teams").val("");
     $("#projects").val("");
     $("#words").val("");
 
-    $(".name").text(name);
+    $(".name").text(nameInput);
    $("#confirm").show();
   });
 });
