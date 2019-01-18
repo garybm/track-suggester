@@ -2,6 +2,10 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
+  background-image: url(../img/hero.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .button {
@@ -29,15 +33,6 @@ margin-bottom: 20px;
 ul {
   display: inline-block;
   text-align:left;
-}
-
-/* .jumbotron {
-  padding: 60px;
-  text-align: center;
-  background: #959ca8;
-  color: white;
-  margin-top: 25px;
-  margin-bottom: 50px; */
 }
 
 /* #result1, #result2, #result3{
