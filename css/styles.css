@@ -35,6 +35,9 @@ ul {
   text-align:left;
 }
 
-/* #result1, #result2, #result3{
+#result1, #result2, #result3{
   display: none
-} */
+}
+#confirm {
+  display: none;
+}

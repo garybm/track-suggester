@@ -7,11 +7,11 @@ $(document).ready(function() {
     var words = parseInt($("#words").val());
     var result = location + company + teams + projects + words;
 
-    if (result < 10) {
+    if (result < 9) {
     $('#result1').show();
     $('#result2').hide();
     $('#result3').hide();
-  } else if (result > 10) {
+  } else if (result > 8) {
     $('#result1').hide();
     $('#result2').show();
     $('#result3').hide();
@@ -20,13 +20,14 @@ $(document).ready(function() {
     $('#result2').hide();
     $('#result3').show();
   }
-
-    event.preventDefault();
-
     $("#location").val("");
     $("#company").val("");
     $("#teams").val("");
     $("#projects").val("");
     $("#words").val("");
+
+    $(".name").text(name);
+  $("#confirm").show();
+  event.preventDefault();
   });
 });

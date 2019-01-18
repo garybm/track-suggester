@@ -19,6 +19,10 @@
       <div>
         <form id="survey">
           <div class="form-group">
+          <label for="name">Tell us your name!</label>
+          <input id="name" type="text" class="form-control">
+         </div>
+          <div class="form-group">
             <label for="question1">What city would you most like to live in?</label>
              <select class="form-control" id="location">
               <option value=""></option>
@@ -69,6 +73,9 @@
           </div>
         <button type="submit" class="btn-primary">Show me</button>
         </form>
+        <div id="confirm">
+       <h4>Hello <span class="name"></span>, you will be great on the track below</h4>
+     </div>
       </div>
         <div class="jumbotron" id="result1">
           <h1><a href="https://www.epicodus.com/java">Java!</a></h1>
