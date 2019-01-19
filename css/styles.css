@@ -8,18 +8,6 @@
   background-repeat: no-repeat;
 }
 
-.button {
-  background-color: #009933; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
-}
-
 .start {
 text-align: center;
 margin-top: 20px;
@@ -27,17 +15,32 @@ margin-bottom: 20px;
 }
 
 .btn-primary {
-  margin-top: 25px;
-  margin-bottom: 30px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
 ul {
   display: inline-block;
   text-align:left;
 }
 
-#result1, #result2, #result3{
+#result1, #result2, #result3 {
   display: none
 }
+
 #confirm {
   display: none;
+}
+h4 {
+  text-align: center;
+}
+.button {
+  text-align: center;
 }

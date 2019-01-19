@@ -8,8 +8,6 @@ $(document).ready(function() {
     var words = parseInt($("#words").val());
     var result = location + company + teams + projects + words;
 
-    $
-
     if (result < 9) {
     $('#result1').show();
     $('#result2').hide();
