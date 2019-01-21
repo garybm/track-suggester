@@ -32,7 +32,8 @@ ul {
 }
 
 #result1, #result2, #result3 {
-  display: none
+  display: none;
+  background: #e6f2ff;
 }
 
 #confirm {
